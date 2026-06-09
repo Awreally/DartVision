@@ -141,3 +141,13 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Turbo
+.turbo/
+
+# Expo
+.expo/
+apps/mobile/.expo/
+
+# Prisma generated client
+apps/api/node_modules/.prisma/

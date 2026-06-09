@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "DartVision",
+    "slug": "dartvision",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "dartvision",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dartvision.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#030712"
+      },
+      "package": "com.dartvision.app"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

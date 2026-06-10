@@ -13,10 +13,7 @@
     "typecheck": "turbo run typecheck",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\""
   },
-  "pnpm": {
-    "onlyBuiltDependencies": ["@prisma/client", "@prisma/engines", "esbuild", "prisma"]
-  },
-  "devDependencies": {
+"devDependencies": {
     "turbo": "^2.5.4",
     "typescript": "^5.8.3",
     "prettier": "^3.5.3"
